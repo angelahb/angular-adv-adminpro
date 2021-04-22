@@ -1,1 +1,35 @@
-<p>grafica1 works!</p>
+    <!-- Start Page Content -->
+    <!-- ============================================================== -->
+    <div class="row">
+        <div class="col-6">
+            <app-dona 
+            title="Ventas"
+            [labels]="labels2"
+            [data]="data2">
+        </app-dona>
+        </div>
+
+        <div class="col-6">
+            <app-dona 
+                [labels]="labels1"
+                [data]="data1"
+                title="Compras">
+            </app-dona>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- End PAge Content -->
+
+    <div class="row">
+        <div class="col-6">
+            <app-dona
+                title="Cambios"
+            ></app-dona>
+        </div>
+
+        <div class="col-6">
+            <app-dona
+                title="Compras 2"
+            ></app-dona>
+        </div>
+    </div>
